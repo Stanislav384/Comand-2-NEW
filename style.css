@@ -55,6 +55,14 @@ body {
     color: rgb(253, 85, 18);
 }
 
+input {
+  width: 400px;
+  height: 35px;
+  background-color:#282828;
+  border-radius: 3px;
+  border: 0.25px solid darkgray;
+  padding: 15px;
+}
 
 .input:hover {
     border: 2px solid lightgrey;
