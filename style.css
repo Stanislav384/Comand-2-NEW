@@ -32,7 +32,7 @@ body {
     transition-duration: 0.1s;
 }
 
-.main-navigation a:hover{
+.main-navigation a:hover,#orange-text:hover{
     color:white;
 }
 
@@ -50,3 +50,22 @@ body {
 body {
     background-color: #0a0a0a;
 }
+
+#orange-text {
+    color: rgb(253, 85, 18);
+}
+
+
+.input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+    transform: scale(0.95);
+}
+
+.input:focus {
+    border: 2px solid grey;
+  }
+  
