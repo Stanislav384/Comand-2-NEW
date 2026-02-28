@@ -6,5 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+const btn = document.querySelector('.dropbtn');
+const menu = document.querySelector('.dropdown-content');
+
+btn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+});
+
+document.addEventListener('click', () => {
+  menu.style.display = 'none';
+});
 
   
