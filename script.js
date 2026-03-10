@@ -18,4 +18,7 @@ document.addEventListener('click', () => {
   menu.style.display = 'none';
 });
 
+document.querySelector('.custom-file-button').addEventListener('click', () => document.querySelector('.choose-file').click());
+
+
   
