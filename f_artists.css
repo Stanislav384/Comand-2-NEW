@@ -1,0 +1,47 @@
+.for-artists-page {
+    display: flex;
+    flex-direction: row;
+    color:white;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.side-panel-buttons {
+    display: flex;
+    flex-direction: column;
+}
+/* .side-panel-buttons a{
+    text-decoration: none;
+    color:rgb(130, 129, 129);
+    font-weight: bold;
+} */
+
+
+.side-panel *{
+    padding: 5px 20px;
+}
+
+.side-button1, .side-button2, .side-button3, .side-button4 {
+    position: absolute;
+    display: inline-block;
+    width:70px;
+    height:15px;
+    opacity: 0;
+    left: 70px;
+}
+.side-button1 {
+    top:90px;
+}
+.side-button2 {
+    top:145px;
+}
+.side-button3 {
+    top:205px;
+}
+.side-button4 {
+    top:260px;
+}

@@ -18,7 +18,7 @@ document.addEventListener('click', () => {
   menu.style.display = 'none';
 });
 
-document.querySelector('.custom-file-button').addEventListener('click', () => document.querySelector('.choose-file').click());
+document.querySelector('#upload-div-2').addEventListener('click', () => document.querySelector('.choose-file').click());
 
 
   
