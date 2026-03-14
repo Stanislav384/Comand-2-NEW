@@ -7,7 +7,7 @@
     gap:30px;
 }
 
-#upload-div-1 {
+.upload-div-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
     margin-top: 60px;
 }
 
-#upload-div-1 a{
+.upload-div-1 a{
     text-decoration: none;
     color:white;
     background-color: #0f0f0f;
@@ -32,11 +32,11 @@
     position: static;
 }
 
-#upload-div-1 a:hover{
+.upload-div-1 a:hover{
     background-color: rgb(50,50,50);
 }
 
-#upload-inner-div-1 {
+.upload-inner-div-1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@
     gap: 15px;
 }
 
-#upload-div-2 {
+.upload-div-2 {
     justify-content: center;
     align-items: center;
     display: flex;
@@ -61,11 +61,11 @@
     cursor:pointer;
 }
 
-#upload-div-2:hover {
+.upload-div-2:hover {
     border: 2px dashed lightgrey;
 }
 
-#upload-div-3 {
+.upload-div-3 {
     position: relative;
     text-align: center;
     justify-content: center;
@@ -81,12 +81,12 @@
     text-align: center;
 }
 
-#upload-div-3 > div:first-child {
+.upload-div-3 > div:first-child {
     position: absolute;
     left: 50px;                
 }
 
-#upload-text-1 {
+.upload-text-1 {
     justify-content: center;
     align-items: start;
     display: flex;
