@@ -152,3 +152,51 @@ input {
     background-color: #282828;
     margin: 4px 0;
   }
+
+/* footer */
+.player{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:60px;
+
+  background:#222;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:0 20px;
+}
+
+/* controls */
+.controls{
+  font-size:20px;
+}
+
+/* progress */
+.progress{
+  display:flex;
+  align-items:center;
+  width:50%;
+}
+
+.progress input{
+  width:100%;
+  margin:0 10px;
+}
+
+/* song */
+.song{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.song img{
+  width:35px;
+  height:35px;
+  border-radius:4px;
+}
