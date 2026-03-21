@@ -5,7 +5,7 @@ body{
 
 .music-box{
     display:flex;
-    background:#111;
+    /* background:#111; */
     border-radius:10px;
     padding:15px;
     gap:20px;
@@ -81,4 +81,148 @@ body{
 
 .uptext{
     color: whitesmoke; 
+    margin-left: 17.3%;
+
+}
+
+/* SIDE BAR */
+/* TOOLS */
+.tools {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tool {
+  background: #1e1e1f;
+  border: 1px solid #2a2a2a;
+  border-radius: 8px;
+  padding: 10px 6px;
+  font-size: 11px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tool:hover {
+  background: #2a2a2a;
+}
+
+/* PROMO BOX */
+.promo-box {
+  background: #2a1f3a;
+  color: #d6c8ff;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.4;
+}
+
+/* ARTISTS */
+.artist {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.avatar-right {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #555, #222);
+}
+
+.artist-info {
+  flex: 1;
+}
+
+.artist-name {
+  font-size: 13px;
+}
+
+.artist-stats {
+  font-size: 11px;
+  color: #8a8a8a;
+}
+
+.follow {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 16px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.follow:hover {
+  background: #ddd;
+}
+
+.page{
+  display: flex;
+  gap:10px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.left{
+  margin-left: 8.7%;
+  margin-right: 6.2%;
+  color: #ddd;
+}
+/* .right{
+  /* margin-right: 2.1%; */
+  /* margin-left:10,7% ; */
+/* } */
+.section{
+  display: flex;
+  color:white;
+  gap:10px;
+  flex-direction: column;
+}
+.links{
+  color:white;
+}
+.sidebar{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.store-apple{
+  background-color: aquamarine;
+  border-radius: 16px;
+  font-size: 12px;
+  border: 1px solid #2a2a2a;
+  cursor: pointer;
+}
+.store-google{
+  background-color: rgb(235, 159, 46);
+  border-radius: 16px;
+  font-size: 12px;
+  border: 1px solid #2a2a2a;
+  cursor: pointer;
+}
+.store-buttons{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  color:black;
+  
+}
+.controls{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+.song{
+  margin-right :10%;
+}
+.controls{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+.song{
+  margin-right :10%;
 }
