@@ -10,8 +10,11 @@ body{
     padding:15px;
     gap:20px;
     color:white;
-    margin-left: 17.3%;
-    margin-right:39.3% ;
+    /* margin-left: 17.3%;
+    margin-right:39.3% ; */
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
 }
 
 .music-image img{
@@ -80,5 +83,7 @@ body{
 }
 
 .uptext{
-    color: whitesmoke; 
+    color: whitesmoke;
+    text-align:center;
+    padding: 50px 0px;
 }
