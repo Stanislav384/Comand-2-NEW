@@ -18,8 +18,8 @@
 
 .vertical-devider {
     position: absolute;
-    left: 10%;
-    border: 0.5px solid rgb(93, 93, 93);
+    left: 250px;
+    border: 0.5px solid rgb(50,50,50);
     height:10000px;
 }
 
@@ -133,4 +133,57 @@
 
 .custom-file-button:hover {
     background-color: grey;
+}
+
+.stats-div {
+    border: 1px solid rgb(50,50,50);
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 2000px;
+}
+
+.stats-div-text {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: left;
+    text-align:center;
+    gap: 15px;
+    padding-bottom: 15px;
+    max-width: 450px;
+    height: 30px;
+}
+
+.stats-div-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.stats-div-info-inner-1 {
+    padding: 35px 150px;
+    border-right: 1px solid rgb(50,50,50);
+    /* max-width: 250px;
+    max-height: 40px; */
+    width: 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.stats-div-info-inner-1 p {
+    font-weight: bold;
+}
+
+.small-grey-text {
+    color: darkgrey;
+    font-size: 12px;
+}
+
+.coming-soon {
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
 }
